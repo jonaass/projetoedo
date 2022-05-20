@@ -8,9 +8,13 @@ function App() {
       <h1>Páginas</h1>
 
      <Link to='/landingpage'>landingpage</Link>
+     <br></br>
      <Link to='/login'> login</Link>
+     <br></br>
      <Link to='/menu'>menu do login</Link>
-     <Link to='/cosultarpedido'>cosultar pedido</Link>
+     <br></br>
+     <Link to='/consultarpedido'>consultar pedido</Link>
+     <br></br>
      <Link to='/agendarpedido'>agendar pedido</Link>
      
 
