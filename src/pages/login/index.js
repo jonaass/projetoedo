@@ -5,53 +5,30 @@ export default function index() {
 return(
 
     <main className='pai'>
-<body>
+ <body>
     <main className='principal'/>
-        <section className='f1'>
-           <div className='image-container'>
-               <img src='./images/logo.png'/>
-           </div>
-           <div className='text1'>
-               <h5> Estufa de Ouro </h5>
-           </div>
-        </section>
+  
+    <div className="container-esquerda">
+        <img className='logo' src="./images/carro.png" alt=''/>
 
-        <section className='f2'>
-            <div className='text2'>
-                <h5> Área Restrita  Login</h5>
+        <h3 className="titulo"> Estufa de Ouro </h3>
+    </div>
 
-            </div>
+    <div className="container-direita">
 
-            <div className='login'>
-                <label for="uname"><b></b></label>
-                <input type="text" placeholder="Usuário" class="icon1" name="uname" value placeholder2="Search" required>
-                </input>
-            </div>
+        <h3 className="area-restrita"> Área Restrita <br/> Login </h3>
 
-            <div class="text4">
-                <span className='psw'> <a href="#"> Esqueceu seu nome de usuário?</a> </span> 
-            </div>
+        <input type="text" id="imputUsuario" placeholder="Usuário" required="required" autofocus="autofocus" className="form-control border-left-0"/>
+        <p className="esqueceu"> Esqueceu seu nome de usuário? </p>
 
-            <div className='password'>
-                <label for="psw"><b></b></label>
-                <input type="text" placeholder="Senha" class="'icon2" name="psw" value placeholder2="Search" required>
-                </input>
-                
-            </div>    
+        <input type="password" id="imputSenha" placeholder="Senha" required="required" className="form-control border-left-0"/>
+        <p className="esqueceu"> Esqueceu sua senha? </p>
 
-            <div className='text3'>
-                <span className='psw'> <a href="#"> Esqueceu sua senha?</a> </span> 
-            </div>
-              
-            <div>
-               <a href="../menu"> <button type="submit" class="button">Entrar</button> </a>
-            </div>
-
-              
-        </section>
-
+        <a href="../menu" className="button"> Entrar </a>
+         
+    </div>  
     
-</body>
+ </body>
 
 </main>
 );
