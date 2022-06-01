@@ -1,7 +1,7 @@
 .cabeçalho {
     background-color: #252048;
     width: 100%;
-    height: 140px;
+    height: 121px;
     padding-top: 10px;
 }
 
@@ -14,6 +14,7 @@
     flex-direction: column;
     text-align: center;
     width: auto;
+    height: 6em;
 }
 
 .text-cabeçalho {
@@ -39,45 +40,66 @@
     margin-bottom: 40px;
 }
 .faixa1 {
-    height: 550px;
+    height: 35em;
     
     
 }
 
 .faixa1-imagem {
-    background-image: url('https://neycostaautocenter.com.br/wp-content/uploads/2019/12/funilaria-scaled.jpg');
-    height: 100%;
-    padding-top: 300px;
+    background-image: url(https://neycostaautocenter.com.br/wp-content/uploads/2019/12/funilaria-scaled.jpg);
+    height: 35em;
     background-repeat: no-repeat;
     background-size: 100%;
+    display: flex;
+    justify-content: end;
 }
 
 .faixa1-texto {
     background-color: #252048;
-    width: 300px;
-    height: 200px;
+    width: 22em;
+    height: 14em;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border-radius: 80px;
-    margin-left: 800px;
-    margin-top: -200px;
-    padding: 50px;
+    align-self: center;
+    border-radius: 36px;
+    margin-right: 50px;
 }
 
 .faixa1-texto1 {
-    font-family: 'font4';
-    width: 200px;
+    font-family: "font4";
+    width: 11em;
     color: white;
+    font-size: 25px;
+    padding-left: 17px;
+    margin-bottom:5px;
+}
+
+.faixa1-texto2{
+    font-family: "font4";
+    width: 11em;
+    color: white;
+    font-size: 25px;
+    padding-left: 17px;
+    margin-bottom: 5px;
+}
+
+.faixa1-texto3{
+    font-family: "font4";
+    width: 11em;
+    color: white;
+    font-size: 25px;
+    padding-left: 17px;
 }
 
 .faixa2 {
-    height: 500px;
+    height: 33em;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 60px;
+    justify-content: space-around;
     background-color: white;
+    align-items: center;
+
 }
 
 .bloco1 {
@@ -88,14 +110,12 @@
 
 .bloco2 {
     background-image: url('../../../public/images/img2.jpg');
-    width: 30vh;
-    height: 20vh;
+    width: 35em;
+    height: 30em;
     background-repeat: no-repeat;
-    background-size: 100%;
-  
-    border-radius: 70px;
-
-   
+    background-size: 130%;
+    border-radius: 20px;
+    margin-right: -80px;
 }
 
 .faixa2-texto1{
