@@ -28,11 +28,14 @@ return(
     <main className="faixa1">
         <div className="faixa1-imagem">
             <div className="faixa1-texto">
-                <h3 className="faixa1-texto1">Um carro bem cuidado, faz você ir longe!
-                    <br/>
-                    <br/>
+                <h3 className="faixa1-texto1">
+                    Um carro bem cuidado, faz você ir longe!
+                </h3>
+
+                <h3 className="faixa1-texto2">
                     Entre em contato conosco
-                    <br/>
+                </h3>
+                <h3 className="faixa1-texto3">
                     (11)97014-9422
                 </h3>
             </div>
