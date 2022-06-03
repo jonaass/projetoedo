@@ -10,7 +10,7 @@ return(
     <header className="cabeçalho">
 
         <div className="text-cabeçalho">
-            <a href="../login">Área restrita</a>
+            <a className='detalhes' href="../login">Área restrita</a>
         </div>
 
         <div className="texto-cabeçalho">
@@ -44,14 +44,16 @@ return(
     </main>
 
     <section className="faixa2">
-        <div>
-            <h3 className="faixa2-texto1">Deixe o seu volante em 
-                                     <br/>
-                                     boas mãos! </h3>
-            <br/> 
-            <p className="faixa2-texto2"> Sempre prezando pelo melhor 
-            <br/> 
-            atendimento do cliente </p>
+        <div className='f2-textos'>
+            <h3 className="faixa2-texto1">
+                Deixe o seu volante em 
+                boas mãos! 
+            </h3>
+        
+            <p className="faixa2-texto2"> 
+            Sempre prezando pelo melhor 
+            atendimento do cliente 
+            </p>
         </div>
 
         <div className="bloco2">
@@ -77,7 +79,7 @@ return(
 
     <section className="faixa4">
         <div className="div1">
-            <div >
+            <div>
                 <img className="img-div1" src="./images/icone2.png" alt=""/>
             </div>
 
@@ -85,9 +87,6 @@ return(
                 <p >Atendimento rapido e seguro</p>
             </div>
         </div>
-
-
-
 
         <div className="div2">
             <div >
@@ -98,10 +97,6 @@ return(
                 <p>Entrega rápida e dentro do prazo</p>
             </div>
         </div>
-
-
-
-
 
         <div className="div3">
             <div >
@@ -131,8 +126,8 @@ return(
             <p className="texto5">Procedimento com a missão de ampliar a durabilidade da tintar do automóvel</p>
         </div>
 
-        <div className="img-faixa5">
-            <img className="imagem-5" src="./images/img4.png" alt=""/>
+        <div className="img-f5">
+            <img className="img-5" src="./images/img4.png" alt=""/>
         </div>
     </section>
 
@@ -165,11 +160,11 @@ return(
         <div className="bloco1-rodape">
             <div>
                 <h1 className="titulo-rodapé">Estufa de ouro </h1>
-                <img className="carro" src="../images/carro.png" alt=""/>
+                <img className="carro1" src="../images/carro.png" alt=""/>
             </div>
 
             <div>
-                <h1 className="contato-rodapé">Contatos:</h1>
+                <h1 className="contato-rodapé , pos">Contatos:</h1>
             </div>
 
             <div className="contatos">
@@ -197,7 +192,5 @@ return(
 </body>
 
 );
-
-
 
 }
