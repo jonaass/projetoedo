@@ -4,48 +4,33 @@ export default function Menu() {
 
     return(
 
-        <main className='pai'>
+        <main>
 
-         <body>
-   
+            <div className='primeiro'>
+                <div className='seta'>
+                    <a href="../landingpage" >
+                        <img src="./images/66822.png" className='img-1'/> 
+                    </a>
+                </div>
 
-        <div className='primeiro'>
-         <a href="../landingpage"> <img src="./images/66822.png"  width="50" height="50" className='img-1'/> </a>
+                <h1 className='Serviço'> Qual serviço deseja?</h1>
+                
+                <div className='Agendar'>
+                    <button className="b1">
+                        <a href="../agendarpedido">Agendar Pedido</a>
+                    </button>
+                </div>
 
-         <h1 className='Serviço'> Qual serviço deseja?</h1>
-          
-         <div className='Agendar'>
-          <a href="../agendarpedido">Agendar Pedido</a>
+                <div className='Consulta'>
+                    <button className="b2">
+                        <a href="../consultarpedido">Consulta de Pedido</a>
+                    </button>
+                </div>
 
-
-         </div>
-
-         <div className='Consulta'>
-          <a href="../consultarpedido">Consulta de Pedido</a>
-
-         </div>
-
-
-
-        </div>
-
-
-
-
-
+            </div>
 
     
-
-
-</body>
-
-
-
-
-
-
-
-         </main>
+        </main>
 
     );
     
