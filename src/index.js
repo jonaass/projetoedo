@@ -6,7 +6,7 @@ import { BrowserRouter , Routes ,Route } from 'react-router-dom';
 
 import App from './App';
 import Consultarpedidos from'./pages/consultarpedido';
-import Landingpage from'./pages/landingpage/';
+import Landingpage from'./pages/landingpage/index';
 import Login from'./pages/login';
 import Menu from './pages/menu';
 import Agendar from './pages/agendarpedido';

@@ -5,7 +5,7 @@ import axios from 'axios'
 
 import'./index.scss';
 
-export default function index() {
+export default function Index() {
     const [nome, setNome] = useState('');
     const [senha, setSenha] = useState('');
     const [erro, setErro] = useState('');
@@ -31,33 +31,41 @@ export default function index() {
     
 return(
 
-    <main className='pai'>
- <body>
-    <main className='principal'/>
+    <main className='principal'>
+
+        <section className='sec'>
   
-    <div className="container-esquerda">
-        <img className='logo' src="./images/carro.png" alt=''/>
+            <div className="container-esquerda">
+                <img className='logo' src="./images/carro.png" alt=''/>
 
-        <h3 className="titulo"> Estufa de Ouro </h3>
-    </div>
+                <h3 className="titulo"> Estufa de Ouro </h3>
+            </div>
 
-    <div className="container-direita">
 
-        <h3 className="area-restrita"> Área Restrita <br/> Login </h3>
+            <div className="container-direita">
 
-        <input type="text" id="imputUsuario" placeholder="Usuário" required="required" autofocus="autofocus" className="form-control border-left-0" value={nome} onChange={e => setNome(e.target.value) }/>
-        <p className="esqueceu"> Esqueceu seu nome de usuário? </p>
+                <h3 className="area-restrita"> Área Restrita <br/> Login </h3>
 
-        <input type="password" id="imputSenha" placeholder="Senha" required="required" className="form-control border-left-0" value={senha} onChange={e => setSenha(e.target.value) }/>
-        <p className="esqueceu"> Esqueceu sua senha? </p>
+                <input type="text" id="imputUsuario" placeholder="Usuário" required="required" autofocus="autofocus" className="input" value={nome} onChange={e => setNome(e.target.value) }/>
 
-        <a href="../menu" className="button" onClick={entraClick}> Entrar </a>
+                <p className="esqueceu"> Esqueceu seu nome de usuário? </p>
 
-         
-    </div>  
-    
- </body>
+                <input type="password" id="imputSenha" placeholder="Senha" required="required" className="input" value={senha} onChange={e => setSenha(e.target.value) }/>
 
-</main>
+                <p className="esqueceu"> Esqueceu sua senha? </p>
+
+                
+                    <a href="../menu" className="button" onClick={entraClick}> 
+                        <button className='botao'>
+                            Entrar 
+                        </button>            
+                     </a>
+                
+                
+            </div>  
+
+        </section>
+
+    </main>
 );
 }
