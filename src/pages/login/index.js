@@ -31,38 +31,42 @@ export default function Index() {
     
 return(
 
-    <main className='principal'>
+    <main className='  sombra'>
 
-        <section className='sec'>
-  
-            <div className="container-esquerda">
-                <img className='logo' src="./images/carro.png" alt=''/>
+        <section className='principal'>
 
-                <h3 className="titulo"> Estufa de Ouro </h3>
-            </div>
+            <section className='sec'>
+    
+                <div className="container-esquerda">
+                    <img className='logo' src="./images/carro.png" alt=''/>
+
+                    <h3 className="titulo"> Estufa de Ouro </h3>
+                </div>
 
 
-            <div className="container-direita">
+                <div className="container-direita">
 
-                <h3 className="area-restrita"> Área Restrita <br/> Login </h3>
+                    <h3 className="area-restrita"> Área Restrita <br/> Login </h3>
 
-                <input type="text" id="imputUsuario" placeholder="Usuário" required="required" autofocus="autofocus" className="input" value={nome} onChange={e => setNome(e.target.value) }/>
+                    <input type="text" id="imputUsuario" placeholder="Usuário" required="required" autofocus="autofocus" className="input" value={nome} onChange={e => setNome(e.target.value) }/>
 
-                <p className="esqueceu"> Esqueceu seu nome de usuário? </p>
+                    <p className="esqueceu"> Esqueceu seu nome de usuário? </p>
 
-                <input type="password" id="imputSenha" placeholder="Senha" required="required" className="input" value={senha} onChange={e => setSenha(e.target.value) }/>
+                    <input type="password" id="imputSenha" placeholder="Senha" required="required" className="input" value={senha} onChange={e => setSenha(e.target.value) }/>
 
-                <p className="esqueceu"> Esqueceu sua senha? </p>
+                    <p className="esqueceu"> Esqueceu sua senha? </p>
 
-                
-                    <a href="../menu" className="button" onClick={entraClick}> 
-                        <button className='botao'>
-                            Entrar 
-                        </button>            
-                     </a>
-                
-                
-            </div>  
+                    
+                        <a href="../menu" className="button" onClick={entraClick}> 
+                            <button className='botao'>
+                                Entrar 
+                            </button>            
+                        </a>
+                    
+                    
+                </div>  
+
+            </section>
 
         </section>
 
